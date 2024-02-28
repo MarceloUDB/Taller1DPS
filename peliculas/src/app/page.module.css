@@ -1,0 +1,72 @@
+.appContainer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.movieSelector {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #34495e;
+  border: none;
+  color: #ecf0f1;
+  border-radius: 4px;
+}
+
+.movieList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movieItem {
+  background-color: #34495e;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.movieName {
+  margin: 0;
+}
+
+.quantityInput {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #7f8c8d;
+  background-color: #95a5a6;
+  color: #2c3e50;
+  border-radius: 3px;
+}
+
+.removeButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #c0392b;
+}
+
+.totalCost {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
